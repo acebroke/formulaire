@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+
+        <form id="connexion" action="/connexion" method="post">
+            <h2>Se connecter</h2>
+            <input type="mail" placeholder="Votre adresse mail">
+            <input type="password" placeholder="Votre mot de passe">
+            <div class="robot">
+                <label for="checkbox">Je ne suis pas un robot</label>
+                <input type="checkbox" id="checkbox">
+            </div>
+            <button type="submit">Se connecter</button>
+        </form>
+
+        <form id="inscription" action="/inscription" method="post">
+            <h2>S'inscrire</h2>
+            <input type="text" placeholder="Votre nom">
+            <input type="text" placeholder="Votre prénom">
+            <input type="mail" placeholder="Votre adresse mail">
+            <input type="password" placeholder="Votre mot de passe">
+            <input type="password" placeholder="Confirmez votre mot de passe">
+            <button type="submit">Inscription</button>
+        </form>
+    </div>
+
+
+
+
+
+</body>
+</html>

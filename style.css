@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Akaya Telivigala', cursive;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #82ccdd;
+}
+#main{
+    display: flex;
+}
+
+#connexion{
+    border-right: 2px solid #eb2f06 ;
+    width: 350px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    transition: 1s;
+}
+
+#inscription{
+    width: 350px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    transition: 1s;
+}
+
+input{
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #78e08f;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #eb2f06 ;
+}
+
+.robot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#checkbox{
+    width: 65px;
+}
+
+label{
+    font-size: 25px;
+}
+
+button{
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #079992;
+    color: #eb2f06;
+    border-radius: 5px;
+}
+
+#connexion:hover{
+    transform: scale(1.08);
+    margin-left: 100px;
+}
+
+#inscription:hover{
+    transform: scale(1.08);
+    margin-left: 100px;
+}
